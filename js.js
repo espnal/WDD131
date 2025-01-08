@@ -1,3 +1,3 @@
-const todo ()=>{
-return
+const funtion todo (todo)=>{
+return todo
 }
