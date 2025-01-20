@@ -86,6 +86,11 @@ footer {
   margin-top: 2rem;
 }
 
+footer #lastModified {
+  color: #fff;
+  font-size: 14px;
+}
+
 /* temples-large.css - Larger View Design */
 
 @media (min-width: 768px) {
