@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan</title>
+    <script defer src="scripts/place.js"></script>
+    <link rel="stylesheet" href="styles/place.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Japan</h1>
+    </header>
+    <main>
+      <div class="floating">
+        <div class="img">
+          <picture>
+            <source
+              media="(min-width: 850px )"
+              srcset="images/japan-temple14.webp" />
+            <img src="images/japan-temple24.webp" alt="Japan Temple" />
+          </picture>
+        </div>
+
+        <div class="data">
+          <h2>Data</h2>
+          <div class="details"></div>
+        </div>
+        <div class="weather">
+          <h2>Weather</h2>
+          <img class="icon" src="images/clouds_sun.svg" alt="sun-cloud" />
+          <div class="weather-inf"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span> Roguin Pena, Dominican Republic
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
