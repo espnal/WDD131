@@ -50,8 +50,8 @@ function calculateWindChill(temp, windSpeed) {
   ).toFixed(2);
 }
 
-// const temperature = 30;
-// const windSpeed = 10;
+const temperature = 30;
+const windSpeed = 10;
 
 if (temperature <= 50 && windSpeed > 3) {
   const windChill = calculateWindChill(temperature, windSpeed);
