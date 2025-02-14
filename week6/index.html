@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivation Hub</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="images/LOGO MOT.png" alt="logo" width="200" />
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="index.html">Quotes</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Motivation Hub</h1>
+      <div class="colors"></div>
+      <div class="colors2"></div>
+      <div id="quote-container">
+        <img id="quote-image" src="" alt="" />
+        <p id="quote-text"></p>
+        <div class="buttons-container">
+          <button onclick="displayRandomQuote()">New Quote</button>
+          <button id="favorite-btn" onclick="saveFavoriteQuote()">❤️</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Roguin Pena. All rights reserved.</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

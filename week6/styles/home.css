@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Afacad Flux", serif;
+  font-weight: 500;
+  font-style: normal;
+  /* background-color: #123524; */
+}
+h1 {
+  color: #efe3c2;
+  text-align: center;
+  padding: 20px;
+  background-color: darkslategray;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.logo {
+  text-align: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #123524;
+}
+.content {
+  padding: 20px;
+}
+.quote {
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0;
+}
+.submit-story {
+  margin-top: 20px;
+}
+.section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+  width: 100%;
+  color: #efe3c2;
+  text-align: center;
+  padding: 20px;
+  background-color: darkslategray;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 20px;
+}

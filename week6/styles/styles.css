@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Afacad Flux", serif;
+  font-weight: 500;
+  font-style: normal;
+  /* background-color: #123524; */
+}
+h1 {
+  width: 100%;
+  color: #efe3c2;
+  text-align: center;
+  padding: 20px;
+  background-color: darkslategray;
+  margin-bottom: 1rem;
+}
+/* .colors {
+  position: relative;
+  height: 40vh;
+  width: auto;
+  background-color: #123524;
+}
+.colors2 {
+  position: relative;
+  height: 35vh;
+  width: auto;
+  background-color: #efe3c2;
+} */
+.logo {
+  text-align: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #123524;
+}
+/* main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+} */
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+#quote-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+#quote-text {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+button {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+  margin: 0 auto;
+}
+button:hover {
+  background-color: #2a561a;
+  color: #fff;
+}
+.favorite {
+  padding: 1rem;
+  text-align: center;
+  font-size: larger;
+  background-color: #2a561a;
+  color: #fff;
+  margin: 0.5rem;
+}
+footer {
+  width: 100%;
+  color: #efe3c2;
+  text-align: center;
+  padding: 20px;
+  background-color: darkslategray;
+  margin-top: 1rem;
+}
+@media (max-width: 890px) {
+  #quote-text {
+    position: static;
+    transform: none;
+    width: 90%;
+  }
+  .buttons-container {
+    flex-direction: column;
+  }
+  .colors,
+  .colors2 {
+    display: none;
+  }
+}
